@@ -1,0 +1,25 @@
+OOP stands for Object-Oriented Programming, and it is a programming paradigm that organizes code by creating objects that encapsulate data and behavior. Python is an object-oriented programming language, which means it supports the principles and concepts of OOP.
+
+In OOP, you model your program as a collection of objects that interact with each other to perform tasks. Each object is an instance of a class, which serves as a blueprint or template for creating objects. A class defines the attributes (data) and methods (functions) that objects of that class can possess.
+
+Here are some key concepts and features of OOP in Python:
+
+Classes and Objects:
+A class is a user-defined data type that defines the properties (attributes) and behaviors (methods) of objects. Objects are instances of classes, which means you can create multiple objects from a single class. Objects can access the attributes and methods defined in their class.
+
+Encapsulation:
+Encapsulation refers to the bundling of data and methods within a class. It allows you to hide the internal implementation details of an object and expose only the necessary information and operations through methods. This helps in achieving data abstraction and improves code organization and reusability.
+
+Inheritance:
+Inheritance allows you to create a new class (derived class or subclass) by deriving properties and behaviors from an existing class (base class or superclass). The derived class inherits all the attributes and methods of the base class and can add additional features or override existing ones. Inheritance facilitates code reuse and supports the concept of "is-a" relationships.
+
+Polymorphism:
+Polymorphism means the ability of an object to take on different forms or behaviors based on the context. In Python, polymorphism is achieved through method overriding and method overloading. Method overriding allows a subclass to provide a different implementation of a method defined in its superclass, while method overloading enables a class to have multiple methods with the same name but different parameters.
+
+Abstraction:
+Abstraction allows you to represent complex real-world entities in a simplified manner. It involves identifying the essential features and behaviors of an object and ignoring the unnecessary details. In Python, abstraction is achieved through classes and objects by defining abstract classes (classes that cannot be instantiated) and abstract methods (methods that must be implemented by subclasses).
+
+Association and Composition:
+Association represents a relationship between two or more objects, where each object maintains a reference to the other object. Composition is a form of association where one class (container or composite) contains another class (component). It represents a "has-a" relationship, where the component objects cannot exist independently without the container object.
+
+Using the principles of OOP in Python allows you to write modular, reusable, and maintainable code. It helps in structuring your programs, promoting code organization and reusability, and managing complexity.
