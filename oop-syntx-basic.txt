@@ -1,0 +1,83 @@
+
+# Object :
+
+    Pysical existence of a class is nothing but object. We can create any number of objects for a class.
+    Syntax to create object : 
+        referencevariable = classname()
+    Example : 
+        s = Student()
+
+
+# Reference Variable :
+
+    The variable which can be used to refer object is called reference variable.
+    By using reference variable, we can access properties and methods of object.
+
+
+# Self variable :
+
+    self is the default variable which is always pointing to current object 
+    by using self we can access instance variables and instance methods of object.
+
+Note :
+    - self should be first parameter inside constructor
+        def __init__(self):
+    - self should be first parameter inside instance methods
+        def talk(self)
+
+
+# Constructor Concept :
+
+    - Constructor is a special method in python.
+    - The name of the constructor should be __init__(self)
+    - Constructor will be executed automatically at the time of object creation.
+    - The main purpose of constructor is to declare and initialize instance variables.
+    - Per object constructor will be exeucte only once.
+    - Constructor can take atleast one argument (atleast self)
+    - Constructor is optional and if we are not providing any constructor then python will 
+        provide default constructor.
+
+Example :
+
+def __init__(self,name,rollno,marks):
+    self.name=name
+    self.rollno=rollno
+    self.marks=marks 
+
+
+
+Differences between Methods and Constructors : 
+
+# Method =>> function declared inside a class is method
+
+- Name of method can be any name 
+- Method will be executed if we call that method
+- Per object, method can be called any number of times.
+- Inside method we can write business logic
+
+# Constructor =>>
+
+- Constructor name should be always __init__
+- Constructor will be executed automatically at the time of object creation.
+- Per object, Constructor will be executed only once
+- Inside Constructor we have to declare and initialize instance variables
+
+
+
+
+
+# Variables  &  Methods --> 
+
+==> Within the Python class we can represent data by using variables. 
+    There are 3 types of variables are allowed =>> 
+        
+    - static variables (Class Level Variables)
+    - instance variables(non-static variables) (object related variable) (Object Level Variables)
+    - local variables (Method Level Variables)
+
+==> Within the Python class, we can represent operations by using methods. 
+    The following are various types of allowed methods =>>
+
+    - Static Methods
+    - Instance Methods (non-static methods)
+    - Class Methods
