@@ -84,4 +84,4 @@ examples to share, please feel free to submit pull requests. Your contributions 
 valuable to the community. 
 
 ##
-**Refer to each code in this repository and award yourself a :trophy:**
+**Refer to each code in this repository and award yourself a #:trophy:**
